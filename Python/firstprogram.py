@@ -2,12 +2,12 @@
 print('Hello my dear!.')
 myAnswer = input()
 print('What is your name?')# ask for their name
-myName = input() 
-print('It is good to meet you, ' +myName) 
-print('The length of your name is:')
-print(len(myName))
+print ('My name is:')
+myName = input()
+print('It is good to meet you, ' + (myName)) 
 print('How old are you?')
 myAge = input()
+print('You will be ' + str(int(myAge) + 1) + ' on your next birthday')
 print('Which country do you live in?') #ask for which country they live in
 myCountry = input()
 print(myCountry+' is a beautiful country')
