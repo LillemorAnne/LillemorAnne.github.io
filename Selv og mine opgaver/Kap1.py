@@ -1,9 +1,7 @@
 name = 'Lillemor'
-if name == 'Lillemor':
+password = 'Tøsen'
+if name == 'Anne-Lina':
     print('Hej Anne')
-    print('Hvilken er din adgangskode?')
-    password = 'Tøsen'
-    myPassword = input()
     if password == 'Tøsen':
         print ('Velkommen.')
     else:
