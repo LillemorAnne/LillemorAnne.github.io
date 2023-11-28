@@ -2,7 +2,8 @@ name = 'Lillemor'
 password = 'Tøsen'
 if name == 'Anne-Lina':
     print('Hej Anne')
+    print ('adgangskode'':')
     if password == 'Tøsen':
-        print ('Velkommen.')
+        print ('Ja')
     else:
-        print ('forkert adgangskode')
+        print('nej')
