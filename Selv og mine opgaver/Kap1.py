@@ -1,14 +1,10 @@
 name = 'Lillemor'
-password = 'Tøsen'
-print('Hvad er dit navn?')
-myName = input()
 if name == 'Lillemor':
     print('Hej Anne')
-else: 
-    print('Husk denne computer tilhøre Anne, som er lille og passer på alle som en mor.')
-    myPassword = input()
     print('Hvilken er din adgangskode?')
+    password = 'Tøsen'
+    myPassword = input()
     if password == 'Tøsen':
-        print ('forkert.')
+        print ('Velkommen.')
     else:
         print ('forkert adgangskode')
