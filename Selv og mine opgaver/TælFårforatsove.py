@@ -1,2 +1,5 @@
 def count_sheep(n):
-    print(n)
+    return "1 sheep..."
+    
+    
+print(count_sheep)
